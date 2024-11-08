@@ -1,0 +1,46 @@
+/* Barra de navegación */
+.navbar {
+    background-color: #a87c7c;
+  }
+  
+  /* Título del menú */
+  .menu-title {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Estilos comunes de los items del menú */
+  .menu-item {
+    background-color: #7f0e0e;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .menu-item h3 {
+    text-align: center;
+    color: white;
+  }
+  
+  .menu-item p {
+    color: grey;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-weight: bold;
+  }
+  
+  /* Alineación del item Sushi */
+  #sushi {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Centrando el contenido del item Sushi */
+  #sushi .menu-item {
+    text-align: center;
+  }
+  
